@@ -1,0 +1,25 @@
+{
+  "name": "pjst",
+  "version": "0.0.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "pjst": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "simple",
+    "project start",
+    "simple structure"
+  ],
+  "author": "Rafael Sanches <fucazu@gmail.com> (https://fucazu.com)",
+  "license": "ISC",
+  "description": "Project to generate simple node structure with git ignore and npm init :rocket:",
+  "dependencies": {
+    "shelljs": "^0.7.8"
+  },
+  "devDependencies": {}
+}
