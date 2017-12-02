@@ -1,6 +1,6 @@
 {
   "name": "pjst",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,6 +17,10 @@
   ],
   "author": "Rafael Sanches <fucazu@gmail.com> (https://fucazu.com)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fucazu/pjst.git"
+  },
   "description": "Project to generate simple node structure with git ignore and npm init :rocket:",
   "dependencies": {
     "shelljs": "^0.7.8"
