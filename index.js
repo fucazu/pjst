@@ -18,7 +18,7 @@ module.exports = folder => {
   }
 
   const copyFiles = distFolderPath => {
-    fs.copyFileSync(resolve(join(__dirname,'./.gitignore')), resolve(join(distFolderPath, './.gitignore')))
+    fs.copyFileSync(resolve(join(__dirname,'./gitignore')), resolve(join(distFolderPath, './.gitignore')))
   }
 
   !fs.existsSync(folder) && createFolder(folder)
