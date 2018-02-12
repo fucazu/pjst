@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/fucazu/pjst.svg?branch=master)](https://travis-ci.org/fucazu/pjst) [![Coverage Status](https://coveralls.io/repos/github/fucazu/pjst/badge.svg?branch=master)](https://coveralls.io/github/fucazu/pjst?branch=master)
 # pjst
 Project to generate simple node structure with git ignore and npm init :rocket:
 
