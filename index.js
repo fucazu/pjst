@@ -6,6 +6,10 @@ const indexFile = 'index.js'
 const createFolder = folder => fs.mkdirSync(folder)
 const createFile = filePath => fs.writeFileSync(filePath, '')
 const copyFiles = distFolderPath => fs.copyFileSync(resolve(join(__dirname, './gitignore')), resolve(join(distFolderPath, './.gitignore')))
+const readFile = filePath => fs.readFileSync(resolve(filePath), 'utf8')
+
+// let batata = JSON.parse(readFile('package.json'))
+// console.log(batata)
 
 module.exports = folder => {
   folder = resolve(folder)
@@ -16,6 +20,8 @@ module.exports = folder => {
 
   shell.cd(folder)
   shell.exec('npm init -y')
+  // if (dev)
+  // shell.exec('npm i -D nodemon')
   shell.exec('git init')
 
   copyFiles(folder)
